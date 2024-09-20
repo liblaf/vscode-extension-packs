@@ -1,0 +1,28 @@
+{
+  "name": "rust-pack",
+  "version": "0.0.0",
+  "publisher": "liblaf",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "license": "MIT",
+  "displayName": "liblaf's Rust Pack",
+  "description": "A collection of Rust extensions for Visual Studio Code.",
+  "categories": [
+    "Extension Packs"
+  ],
+  "devDependencies": {
+    "@vscode/vsce": "catalog:"
+  },
+  "extensionPack": [
+    "1yib.rust-bundle",
+    "dustypomerleau.rust-syntax",
+    "fill-labs.dependi",
+    "rust-lang.rust-analyzer"
+  ],
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "repository": "github:liblaf/vscode-extension-packs"
+}

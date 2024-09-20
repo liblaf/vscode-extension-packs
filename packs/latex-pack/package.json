@@ -1,0 +1,26 @@
+{
+  "name": "latex-pack",
+  "version": "0.0.0",
+  "publisher": "liblaf",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "license": "MIT",
+  "displayName": "liblaf's LaTeX Pack",
+  "description": "A collection of LaTeX extensions for Visual Studio Code.",
+  "categories": [
+    "Extension Packs"
+  ],
+  "devDependencies": {
+    "@vscode/vsce": "catalog:"
+  },
+  "extensionPack": [
+    "james-yu.latex-workshop",
+    "sharzyl.cjk-word-handler"
+  ],
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "repository": "github:liblaf/vscode-extension-packs"
+}

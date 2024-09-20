@@ -1,0 +1,33 @@
+{
+  "words": [
+    "bmalehorn",
+    "debugpy",
+    "dependi",
+    "dustypomerleau",
+    "esbenp",
+    "gruntfuggly",
+    "intellicode",
+    "kisstkondoros",
+    "kohler",
+    "liblaf",
+    "liblaf's",
+    "mechatroner",
+    "nico",
+    "njpwerner",
+    "pflannery",
+    "pkief",
+    "pylance",
+    "sharzyl",
+    "stkb",
+    "sumneko",
+    "tamasfe",
+    "toolsai",
+    "usernamehw",
+    "visualstudioexptteam",
+    "vitaliymaz",
+    "vscodeintellicode",
+    "yzhang"
+  ],
+  "ignorePaths": ["**/*-lock.*", "**/*.lock*", "**/.cspell.json"],
+  "allowCompoundWords": true
+}

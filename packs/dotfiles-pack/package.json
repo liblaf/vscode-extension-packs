@@ -1,0 +1,34 @@
+{
+  "name": "dotfiles-pack",
+  "version": "0.0.0",
+  "publisher": "liblaf",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "license": "MIT",
+  "displayName": "liblaf's Dotfiles Pack",
+  "description": "A collection of extensions for my dotfiles.",
+  "categories": [
+    "Extension Packs"
+  ],
+  "devDependencies": {
+    "@vscode/vsce": "catalog:"
+  },
+  "extensionPack": [
+    "bmalehorn.vscode-fish",
+    "charliermarsh.ruff",
+    "donjayamanne.python-environment-manager",
+    "donjayamanne.python-extension-pack",
+    "dotjoshjohnson.xml",
+    "esbenp.prettier-vscode",
+    "foxundermoon.shell-format",
+    "nico-castell.linux-desktop-file",
+    "sumneko.lua",
+    "timonwong.shellcheck"
+  ],
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "repository": "github:liblaf/vscode-extension-packs"
+}
