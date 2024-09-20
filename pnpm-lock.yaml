@@ -12,7 +12,37 @@ catalogs:
 
 importers:
 
+  packs/dotfiles-pack:
+    devDependencies:
+      '@vscode/vsce':
+        specifier: 'catalog:'
+        version: 3.1.0
+
   packs/essentials-pack:
+    devDependencies:
+      '@vscode/vsce':
+        specifier: 'catalog:'
+        version: 3.1.0
+
+  packs/latex-pack:
+    devDependencies:
+      '@vscode/vsce':
+        specifier: 'catalog:'
+        version: 3.1.0
+
+  packs/python-pack:
+    devDependencies:
+      '@vscode/vsce':
+        specifier: 'catalog:'
+        version: 3.1.0
+
+  packs/rust-pack:
+    devDependencies:
+      '@vscode/vsce':
+        specifier: 'catalog:'
+        version: 3.1.0
+
+  packs/web-pack:
     devDependencies:
       '@vscode/vsce':
         specifier: 'catalog:'
