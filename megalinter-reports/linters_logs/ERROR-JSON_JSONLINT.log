@@ -1,0 +1,12 @@
+Results of jsonlint linter (version 16.0.0)
+See documentation on https://megalinter.io/8.0.0/descriptors/json_jsonlint/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /github/workspace
+Linter raw log:
+File: packs/dotfiles-pack/.vscode/launch.json
+Parse error on line 1, column 1:
+// A launch configur...
+^
+Unexpected token "/"
+

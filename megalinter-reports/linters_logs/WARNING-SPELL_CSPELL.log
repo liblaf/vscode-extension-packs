@@ -1,0 +1,113 @@
+Results of cspell linter (version 8.14.1)
+See documentation on https://megalinter.io/8.0.0/descriptors/spell_cspell/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /github/workspace
+Linter raw log:
+ 1/48 .github/auto-label.yaml 513.82ms
+ 2/48 .github/blunderbuss.yml 17.75ms
+ 3/48 .github/megalinter/.checkov.yml 4.77ms
+ 4/48 .github/megalinter/.devskim.json 122.33ms
+ 5/48 .github/renovate.json 3.14ms
+ 6/48 .github/sync-repo-settings.yaml 1.12ms
+ 7/48 .github/workflows/megalinter.yaml 134.83ms X
+.github/workflows/megalinter.yaml:179:15    - Unknown word (stefanzweifel) -- uses: stefanzweifel/git-auto-commit-action
+	 Suggestions: []
+ 8/48 .gitignore 4.58ms
+ 9/48 .mega-linter.yaml 433.30ms X
+.mega-linter.yaml:34:12     - Unknown word (ISORT)      -- - PYTHON_ISORT
+	 Suggestions: [SORT, iost, IOST, IGOR, ISAR]
+.mega-linter.yaml:35:12     - Unknown word (MYPY)       -- - PYTHON_MYPY
+	 Suggestions: [MOPY, MYOPY, MACY, MANY, MAPS]
+.mega-linter.yaml:36:12     - Unknown word (PYLINT)     -- - PYTHON_PYLINT
+	 Suggestions: [PLYING, PINT, PAINT, PLANT, PLINK]
+.mega-linter.yaml:42:12     - Unknown word (DEVSKIM)    -- REPOSITORY_DEVSKIM_CONFIG_FILE: .github
+	 Suggestions: [DESK, DEVI, DKIM, DEISM, DENIM]
+.mega-linter.yaml:42:53     - Unknown word (devskim)    -- .github/megalinter/.devskim.json
+	 Suggestions: [desk, devi, dkim, deism, denim]
+.mega-linter.yaml:43:12     - Unknown word (KICS)       -- REPOSITORY_KICS_CONFIG_FILE: .github
+	 Suggestions: [KI'S, KICK, KIDS, KINS, KIPS]
+.mega-linter.yaml:43:49     - Unknown word (kics)       -- .github/megalinter/kics.config
+	 Suggestions: [ki's, kick, kids, kins, kips]
+10/48 .pre-commit-config.yaml 175.81ms X
+.pre-commit-config.yaml:10:13     - Unknown word (commitizen) -- - id: commitizen
+	 Suggestions: [comities, commitid, committed, committee, committer]
+.pre-commit-config.yaml:34:20     - Unknown word (bidi)       -- - id: forbid-bidi-controls
+	 Suggestions: [bide, bids, bini, Bini, bid]
+11/48 cdbcbfca-239f-44dd-babe-ba8c053a77a1-megalinter_file_names_cspell.txt 57.86ms X
+cdbcbfca-239f-44dd-babe-ba8c053a77a1-megalinter_file_names_cspell.txt:5:20      - Unknown word (devskim)    -- github megalinter devskim
+	 Suggestions: [desk, devi, dkim, deism, denim]
+12/48 packs/dotfiles-pack/.vscode/launch.json 2.49ms
+13/48 packs/dotfiles-pack/.vscodeignore 1.67ms
+14/48 packs/dotfiles-pack/CHANGELOG.md 102.32ms
+15/48 packs/dotfiles-pack/package.json 5.53ms
+16/48 packs/dotfiles-pack/README.md 7.30ms
+17/48 packs/dotfiles-pack/vsc-extension-quickstart.md 4.02ms
+18/48 packs/essentials-pack/.vscode/launch.json 4.73ms
+19/48 packs/essentials-pack/.vscodeignore 1.63ms
+20/48 packs/essentials-pack/CHANGELOG.md 2.04ms
+21/48 packs/essentials-pack/package.json 14.20ms
+22/48 packs/essentials-pack/README.md 5.33ms
+23/48 packs/essentials-pack/vsc-extension-quickstart.md 7.94ms
+24/48 packs/latex-pack/.vscode/launch.json 1.55ms
+25/48 packs/latex-pack/.vscodeignore 1.23ms
+26/48 packs/latex-pack/CHANGELOG.md 1.42ms
+27/48 packs/latex-pack/package.json 1.97ms
+28/48 packs/latex-pack/README.md 1.87ms
+29/48 packs/latex-pack/vsc-extension-quickstart.md 3.59ms
+30/48 packs/python-pack/.vscode/launch.json 2.61ms
+31/48 packs/python-pack/.vscodeignore 2.39ms
+32/48 packs/python-pack/CHANGELOG.md 3.26ms
+33/48 packs/python-pack/package.json 5.41ms
+34/48 packs/python-pack/README.md 3.00ms
+35/48 packs/python-pack/vsc-extension-quickstart.md 7.35ms
+36/48 packs/rust-pack/.vscode/launch.json 2.35ms
+37/48 packs/rust-pack/.vscodeignore 1.33ms
+38/48 packs/rust-pack/CHANGELOG.md 1.77ms
+39/48 packs/rust-pack/package.json 2.99ms
+40/48 packs/rust-pack/README.md 3.04ms
+41/48 packs/rust-pack/vsc-extension-quickstart.md 3.63ms
+42/48 packs/web-pack/.vscode/launch.json 2.87ms
+43/48 packs/web-pack/.vscodeignore 1.77ms
+44/48 packs/web-pack/CHANGELOG.md 2.53ms
+45/48 packs/web-pack/package.json 30.96ms X
+packs/web-pack/package.json:18:6      - Unknown word (biomejs)    -- "biomejs.biome",
+	 Suggestions: [biomes, biome, biomet, biomass, boomers]
+46/48 packs/web-pack/README.md 2.45ms
+47/48 packs/web-pack/vsc-extension-quickstart.md 1.97ms
+48/48 pnpm-workspace.yaml 0.97ms
+CSpell: Files checked: 48, Issues found: 12 in 5 files.
+
+
+You can skip this misspellings by defining the following .cspell.json file at the root of your repository
+Of course, please correct real typos before :)
+
+{
+    "version": "0.2",
+    "language": "en",
+    "ignorePaths": [
+        "**/node_modules/**",
+        "**/vscode-extension/**",
+        "**/.git/**",
+        "**/.pnpm-lock.json",
+        ".vscode",
+        "package-lock.json",
+        "megalinter-reports"
+    ],
+    "words": [
+        "DEVSKIM",
+        "ISORT",
+        "KICS",
+        "MYPY",
+        "PYLINT",
+        "bidi",
+        "biomejs",
+        "commitizen",
+        "devskim",
+        "kics",
+        "stefanzweifel"
+    ]
+}
+
+
+You can also copy-paste megalinter-reports/.cspell.json at the root of your repository
